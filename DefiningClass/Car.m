@@ -13,8 +13,8 @@
     NSLog (@"I am Driving");
 }
 -(void) driveAtSpeed:(int)speed{
-    speed = speed + 10;
-     NSLog(@"The speed is %i", speed);
+    speed = speed + 20;
+     NSLog(@"The speed was %i", speed);
  }
 
 -(void) stop {
